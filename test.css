@@ -1,0 +1,148 @@
+body{
+    background-color: #ccc;
+    margin: 0px;
+}
+ #head img{
+     display:inline-block;
+     float:left;
+     margin-left: 20px;
+     width: 150px;
+     height:55px;
+     bottom: 5px;
+ }
+ #head ul  {display: inline-block;
+     float:right;
+     margin-right: 10px;
+     text-align: center;
+ }
+#container{
+    width: 800px;
+    margin-left: 20px;
+    float: left;
+}
+#head li{
+    display:inline;
+    padding-right: 10px;
+
+    }
+#head a{
+    color:white;
+    text-decoration: none;
+    font-size: 10px;
+}
+#head{
+    margin-top: 0px;
+    width: 100%;
+height: 60px;
+background-color:black;}
+#con1{
+    width: 95%;
+    background-color:white ;
+    margin: 20px auto ;
+    padding: 20px;
+    box-shadow: 3px 3px 3px ;
+}
+#con2{
+    width: 95%;
+    background-color:white ;
+    margin: 20px auto ;
+    padding: 20px;
+    box-shadow: 3px 3px 3px ;
+    overflow: auto;}
+#photo{ width: 95%;
+    background-color:white ;
+    margin: 20px auto ;
+    padding: 20px;
+    box-shadow: 3px 3px 3px ;
+    overflow: auto;
+}
+.photo{
+    width: 160px;
+    border: 1px solid black;
+    margin: 10px;
+    float:left;
+}
+.photo img{
+    width: 140px;
+    height:100px;
+    margin:10px;
+    text-align: center;
+}
+.photo p{
+    text-align: center;
+}
+#con3{
+    width: 95%;
+    background-color:white ;
+    margin: 20px auto ;
+    padding: 20px;
+    box-shadow: 3px 3px 3px ;
+}
+#con3 h2{font-family: Microsoft YaHei;}
+#con3 th{
+    background-color: black;
+    color: white;
+}
+#con3 table{
+    width: 100%;
+    margin: 10px auto;
+    border-collapse: collapse;
+
+
+}
+#con31{
+    background-color: #ccc;
+}
+#con4{
+    background-color:white ;
+    margin-top: 20px;
+    padding: 20px;
+    box-shadow: 3px 3px 3px ;
+    margin-left: 840px;
+    margin-right: 20px;
+}
+#con4 h2{
+    border-left: solid 3px black;
+    padding: 5px;
+}
+span{color: gray;
+    font-size: 15px;
+}
+#con41 label{
+    text-align: right;
+     float:left;
+    width: 30%;
+}
+span{
+    margin-left:8.5em;
+}
+textarea {
+    width: 200px;height: 100px;
+}
+#con41{
+    margin-left: 20px;
+}
+#con4 input[type='submit']{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: blue;
+
+
+}
+footer {
+    display: block;
+    height: 60px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    clear: both;
+}
+footer p {
+    font-size: 14px;
+    text-align: center;
+    line-height: 60px;
+}
+
+
+
+
