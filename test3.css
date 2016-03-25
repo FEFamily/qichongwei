@@ -1,0 +1,41 @@
+*{margin: 0;padding: 0;
+}
+body{
+  padding: 20px;
+}
+#content{
+    padding: 20px;
+    background-color: #eee;
+    border: solid 1px #999;
+    overflow: auto;
+}
+#con1{
+    background-color: white;
+    float:left;
+    width:160px;
+    padding: 20px;
+    border: solid 1px #999;
+}
+#con1 p{
+    text-align: right ;
+    margin-top: 0;
+}
+#con2{margin-left:220px;
+    margin-right: 140px;
+    background-color: white;
+    border: solid 1px #999;
+}
+#con3{
+    width:120px;
+    height:520px;
+    background-color: white;
+    border: solid 1px #999;
+    float: right;
+
+    }
+.con31{
+    width: 80px;
+    height: 80px;
+    background-color:#eee;
+    margin: 20px;
+}
