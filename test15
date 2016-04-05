@@ -1,0 +1,50 @@
+<!DOCTYPE>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>IFE JavaScript Task 01</title>
+</head>
+<body>
+<ul id="source">
+    <li>北京空气质量：<b>90</b></li>
+    <li>上海空气质量：<b>70</b></li>
+    <li>天津空气质量：<b>80</b></li>
+    <li>广州空气质量：<b>50</b></li>
+    <li>深圳空气质量：<b>40</b></li>
+    <li>福州空气质量：<b>32</b></li>
+    <li>成都空气质量：<b>90</b></li>
+</ul>
+<ul id="resort">
+    <!--
+    <li>第一名：北京空气质量：<b>90</b></li>
+    <li>第二名：北京空气质量：<b>90</b></li>
+    <li>第三名：北京空气质量：<b>90</b></li>
+     -->
+
+</ul>
+<button id="sort-btn">排序</button>
+<script type="text/javascript">
+ var arr2=document.getElementsByTagName("li");
+ var data=[];
+ var city=[],nub=[];
+ for(var i=0;i<arr2.length;i++){
+    city[i]=arr2[i].innerHTML.split ("空气质量：")[0];
+    nub[i]=arr2[i].innerHTML.split ("空气质量：")[1];
+     data[i]=[];
+     data[i].push(city[i],nub[i]);
+ }
+data.sort(function(a,b){
+    return b[1]>a[1];
+    return data;
+})
+    function newar(){
+        var newlist=document.getElementById ("resort");
+        for(i=0;i<data.length ;i++){
+            newlist.innerHTML+="<li>第" + (i+1) + "名：" + data[i][0] + "空气质量<b>" + data[i][1] + "</b></li>";
+        }
+    }
+    document.getElementById("sort-btn").onclick =newar;
+
+</script>
+</body>
+</html>
